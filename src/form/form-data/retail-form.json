@@ -1,0 +1,12 @@
+[
+    {
+        "id": "location",
+        "type": "textarea",
+        "label": "White store location would you like to leave feedback about?"
+    },
+    {
+        "id": "feedback-text",
+        "type": "textarea",
+        "label": "Tell us what you think."
+    }
+]

@@ -1,0 +1,64 @@
+.radio-group-container {
+    fieldset {
+        margin: 0;
+        border: none;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        padding-block-start: 0;
+        padding-block-end: 0;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    input {
+        margin: 0.5rem 1rem;
+    }
+
+    & > label {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    &.nps {
+        fieldset {
+            flex-direction: row;
+            padding: 1rem 0;
+        }
+
+        input {
+            z-index: -100;
+            opacity: 0;
+            pointer-events: none;
+            width: 1px;
+            margin: 0;
+            position: absolute;
+            left: -10000px;
+        }
+
+        .option {
+            label {
+                padding: 0.5rem;
+                background: lightgrey;
+                border-radius: 5px;
+                margin-right: 5px;
+                width: 1rem;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            input:hover + label,
+            input:focus + label,
+            input:checked + label {
+                background: grey;
+                color: white;
+            }
+        }
+    }
+
+}

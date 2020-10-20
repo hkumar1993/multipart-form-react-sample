@@ -1,0 +1,35 @@
+[
+    {
+        "id": "recommend",
+        "type": "radio",
+        "label": "How likely are you to recommend Brand Name to a friend or colleague?",
+        "className": "nps",
+        "values": [
+            { "text": 0, "value": 0 },
+            { "text": 1, "value": 1 },
+            { "text": 2, "value": 2 },
+            { "text": 3, "value": 3 },
+            { "text": 4, "value": 4 },
+            { "text": 5, "value": 5 },
+            { "text": 6, "value": 6 },
+            { "text": 7, "value": 7 },
+            { "text": 8, "value": 8 },
+            { "text": 9, "value": 9 },
+            { "text": 10, "value": 10 }
+        ],
+        "required": true
+    },
+    {
+        "id": "feedback-topic",
+        "type": "dropdown",
+        "label": "Please choose a category you would like to leave feedback about.",
+        "values": [
+            { "text": "Choose...", "isDefault": true, "value": "default" },
+            { "text": "Our Webiste", "value": "website" },
+            { "text": "Our Products", "value": "products" },
+            { "text": "Our Retails Locations", "value": "locations" },
+            { "text": "Customer Service", "value": "service" },
+            { "text": "Brand, Generally", "value": "general" }
+        ]
+    }
+]

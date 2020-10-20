@@ -1,0 +1,27 @@
+#multi-step-form {
+    & > button {
+        height: 2rem;
+        width: 10rem;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: rotate(-90deg) translate(0, 4rem);
+
+        border: none;
+        border-radius: 5px 5px 0 0;
+        background: rgb(198, 211, 217);
+        color: #151515;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        box-shadow: 0px -1px 5px black;
+        transition: all 0.5s;
+
+        cursor: pointer;
+
+        &:hover, &:focus {
+            box-shadow: 0px -5px 5px black;
+        }
+    }
+
+}

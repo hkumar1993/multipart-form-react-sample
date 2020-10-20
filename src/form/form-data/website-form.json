@@ -1,0 +1,55 @@
+[
+    {
+        "id": "goal",
+        "type": "dropdown",
+        "label": "What was your goal for todays visit to Brand.com?",
+        "values": [
+            {
+                "text": "Choose…",
+                "value": "default",
+                "isDefault": true
+            },
+            {
+                "text": "Browse new arrivals",
+                "value": "new"
+            },
+            {
+                "text": "Find a specific style",
+                "value": "specific"
+            },
+            {
+                "text": "Compare products",
+                "value": "compare"
+            },
+            {
+                "text": "Browse sale items",
+                "value": "sale"
+            },
+            {
+                "text": "Contact Customer Service",
+                "value": "contact"
+            },
+            {
+                "text": "Return or exchange an Item",
+                "value": "return"
+            }
+        ]
+    },
+    {
+        "id": "difficulty",
+        "type": "radio",
+        "label": "How easy was it to accomplish this goal?",
+        "values": [
+            { "text": "Very Difficult", "value": 0 },
+            { "text": "Difficult", "value": 1 },
+            { "text": "Not Difficult or Easy", "value": 2 },
+            { "text": "Easy", "value": 3 },
+            { "text": "Very Easy", "value": 4 }
+        ]
+    },
+    {
+        "id": "feedback-text",
+        "type": "textarea",
+        "label": "Please share your feedback."
+    }
+]

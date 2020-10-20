@@ -1,0 +1,35 @@
+[
+    {
+        "id": "category",
+        "type": "dropdown",
+        "label": "What category would you like to leave feedback about?",
+        "values": [
+            {
+                "text": "Choose…",
+                "value": "default",
+                "isDefault": true
+            },
+            {
+                "text": "Footwear",
+                "value": "footwear"
+            },
+            {
+                "text": "Outerwear",
+                "value": "outerwear"
+            },
+            {
+                "text": "Bags",
+                "value": "bags"
+            },
+            {
+                "text": "Other",
+                "value": "other"
+            }
+        ]
+    },
+    {
+        "id": "feedback-text",
+        "type": "textarea",
+        "label": "Tell us what you think."
+    }
+]

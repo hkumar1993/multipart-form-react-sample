@@ -1,0 +1,7 @@
+[
+    {
+        "id": "feedback-text",
+        "type": "textarea",
+        "label": "Tell us what you think."
+    }
+]

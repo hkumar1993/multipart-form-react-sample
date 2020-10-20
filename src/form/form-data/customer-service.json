@@ -1,0 +1,50 @@
+[
+    {
+        "id": "goal",
+        "type": "dropdown",
+        "label": "What was your goal for todays visit to Brand.com?",
+        "values": [
+            {
+                "text": "Choose…",
+                "value": "default",
+                "isDefault": true
+            },
+            {
+                "text": "Phone",
+                "value": "phone"
+            },
+            {
+                "text": "Email",
+                "value": "email"
+            },
+            {
+                "text": "Chat",
+                "value": "chat"
+            },
+            {
+                "text": "Social Media",
+                "value": "social"
+            },
+            {
+                "text": "Other",
+                "value": "other"
+            }
+        ]
+    },
+    {
+        "id": "feedback-text",
+        "type": "textarea",
+        "label": "Tell us what you think."
+    },
+    {
+        "id": "difficulty",
+        "type": "radio",
+        "label": "How would you rate the service",
+        "values": [
+            { "text": "1 - Not Satisfied", "value": 1 },
+            { "text": "2 - Somewhat Satisfied", "value": 2 },
+            { "text": "3 - Satisfied", "value": 3 },
+            { "text": "4 - Very Satisfied", "value": 4 }
+        ]
+    }
+]
